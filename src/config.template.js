@@ -1,3 +1,5 @@
+// copy and rename the file to 'config.js' - then add your keys. 
+
 module.export = {
     consumer_key:         '. . .',
     consumer_secret:      '. . .',
