@@ -39,5 +39,5 @@ function tweeted(error) {
 }
 
 main();
-setInterval(main, 1000 * 60 * 1);
+setInterval(main, 1000 * 60 * 2);
 
