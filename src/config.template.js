@@ -1,6 +1,6 @@
 // copy and rename the file to 'config.js' - then add your keys. 
 
-module.export = {
+module.exports = {
     consumer_key:         '. . .',
     consumer_secret:      '. . .',
     access_token:         '. . .',
