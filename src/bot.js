@@ -8,9 +8,9 @@ try {
     console.log("config.js does not exist")
     process.exit();    
 }
-var T = new twit(config);
+var T = new twit(config.twitter);
 var query = {
-    q: 'giveaway retweet -like -follow -tag -following -bots',
+    q: config.query,
     count: 25,
     result_type: 'mixed',
     lang: 'en'
