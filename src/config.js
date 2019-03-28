@@ -1,7 +1,5 @@
-// copy and rename the file to 'config.js' - then add your keys. 
-
 module.exports = {
-    twitter = {
+    twitter: {
         consumer_key:         process.env.CONSUMER_KEY || '. . .',
         consumer_secret:      process.env.CONSUMER_SECRET || '. . .',
         access_token:         process.env.ACCESS_TOKEN || '. . .',
