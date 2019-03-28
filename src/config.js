@@ -6,5 +6,5 @@ module.exports = {
         access_token_secret:  process.env.ACCESS_TOKEN_SECRET || '. . .',
     },
 
-    query: process.env.QUERY || ''
+    query: process.env.QUERY || '. . .'
 }
