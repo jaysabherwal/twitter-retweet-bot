@@ -12,7 +12,7 @@ var T = new twit(config.twitter);
 var query = {
     q: config.query,
     count: 25,
-    result_type: 'mixed',
+    result_type: 'recent',
     lang: 'en'
 };
 
