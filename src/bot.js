@@ -24,7 +24,7 @@ function retweet(error, data) {
     if(!error) {
         var randomNumber = Math.floor(Math.random() * query.count);
         var statusId = data.statuses[randomNumber].id_str;
-        T.post('statuses/retweet/' + statusId, {}, tweeted);
+        T.post('statuses/retweet/' + statusId, tweeted);
     } else {
         console.log(`\nThere was an error with your search (${query.q}): ${error}`)
     }
