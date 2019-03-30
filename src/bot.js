@@ -1,13 +1,8 @@
 console.log('Starting bot . . .');
 
 var twit = require('twit');
-var config;
-try {
-    config = require('./config.js');
-} catch {
-    console.log("config.js does not exist")
-    process.exit();    
-}
+var config = require('./config.js');
+
 var T = new twit(config.twitter);
 var query = {
     q: config.query,
